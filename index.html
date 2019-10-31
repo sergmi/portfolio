@@ -5,6 +5,12 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css"
+  			media="screen and (max-width: 999px) "
+  			href="css/style_mobile.css" >
+		<link rel="stylesheet" type="text/css"
+  			media="screen and (min-width: 1000px)"
+  			href="css/style.css" >
 	</head>
 	<body>	
 		<header>
@@ -65,13 +71,13 @@
 				<h2 class="">Projects</h2><i id="projects_switch" class="fa fa-chevron-down  fa-fw"></i>				
 			</div>
 			<div id="projects_slider" class="projects-content-disable">
-					<div>
+					<div id="project_slider_chevron_left" class="project-slider-chevron-left">
 						<i class="fa fa-chevron-left"></i>
 					</div>
 					<div class="projects-slider-container">
-						<img src="img/Image_screen_large.png"  alt="Image_screen_large" width="549" height="327"/>				
+						<img id="image_screen_project" class="image-screen-project"src="img/Image_screen_project_1.png"  alt="Image_screen" width="549" height="379"/>				
 					</div>
-					<div>
+					<div id="project_slider_chevron_right" class="project-slider-chevron-right">
 						<i class="fa fa-chevron-right"></i>
 					</div>
 			</div>
